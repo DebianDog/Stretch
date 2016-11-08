@@ -1871,20 +1871,6 @@ Description: PNG library - runtime
  This package contains the runtime library files needed to run software
  using libpng.
 
-Package: upgrade-kernel
-Architecture: all
-Version: 1.0.0
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 20
-Depends: libc6, dpkg, findutils, cpio, xz-utils, gzip, gsu | gksu
-Filename: ./Extra/upgrade-kernel_1.0.0_all.deb
-Size: 10058
-MD5sum: 1180d9a6c1d7a4e3de56dacfc91fc477
-SHA1: 55cd733458cbf608d5c4caabfc03c83b568ec4c6
-SHA256: b4dfb16a967c2f0a861a5eb85aae539946d805f7814654dc72a410dae921802d
-SHA512: d6886455205f0afe438759db5cd97129fd1c4944cf29fbc8ad1f041449dfd979406bf1f360c423aa0f3d11cad825fd7e51823b1fc8a0919218fd9750f4299880
-Description: Warning - This package works only in DebianDog!
-
 Package: oxygen-icon-theme-light
 Architecture: all
 Version: 4:4.14.0-1
@@ -2716,6 +2702,20 @@ SHA256: 47b978289991747d73270eadd0874d3284de739591283319673b984c94c7c6ba
 SHA512: 736de0107af785a0f015093fbc9a629b5a76815ce09afb007a1e409945f6e7a075eaf99f78ada65beece698f70f132d928d8ae015c5109ff3b7d59fb3fb77843
 Homepage: http://flburn.sourceforge.net/
 Description: Optical disc burning software for linux
+
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.1
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 20
+Depends: libc6, dpkg, findutils, cpio, xz-utils, gzip, gsu | gksu
+Filename: ./Extra/upgrade-kernel_1.0.1_all.deb
+Size: 10116
+MD5sum: 6af4b553f3c5ad143940a0ae7af22062
+SHA1: 3ccc50510aa2d096b4df7fee45dd7ceed6f7a481
+SHA256: 9e94ec23c8c864b1e585303e7d574b1e0d3114dd0ace717bf500f684da43cdf3
+SHA512: 8ad037a41692a0e4de7855352b193168591c7e25d755eb31a46abf14289c8c900f8acb32a493b67e0d92e7007eeb6b034157efef3d671aeb00367c99b5fe073e
+Description: Warning - This package works only in DebianDog!
 
 Package: apulse
 Architecture: i386
