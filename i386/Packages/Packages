@@ -1454,6 +1454,25 @@ Description: Conky-clock v2 Luxe edition, choose analog clock display on the Des
  Choice from 300 clock images with the appropriate hands
  Option to display the date on the clock
 
+Package: dogradio
+Architecture: i386
+Version: 0.0.7a
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.7 | mplayer, file, streamripper
+Filename: ./Extra/dogradio_0.0.7a_i386.deb
+Size: 935902
+MD5sum: f45dd927fcf84d7fdadd56d179bdf1fc
+SHA1: c8e57589f96c578d1497bac57aeea1c50e0a1d47
+SHA256: 150de3e15999ac16dbae51a7faadd799779549b143eed977c339c124489812a4
+SHA512: d6aa233068ef6f06957e915877f615c24622d79c2de5176d2ef55c3a1cd09964b0c4b862edcfbd9d356d47666d488fa53ebface3978eb07eccf5b3014513f050
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
+
 Package: libx264-132
 Architecture: i386
 Version: 3:0.132.2310+git76a5c3a-dmo1
