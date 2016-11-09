@@ -446,6 +446,23 @@ Description: Load a *.squashfs or *.sfs module.
  Changes compared to included scripts in DebianDog-2015-09-02 iso: loadmodule and loadsfs
  In case unloading failed at first, find out (by 'aubusy', from aufs-tools) which process is keeping it from unloading and kill it, then try again.
 
+Package: lxrandr-save-fix
+Architecture: i386
+Version: 1.1
+Priority: extra
+Section: system
+Maintainer: root@wheezy
+Installed-Size: 158
+Provides: save-settings-after-reboot
+Depends: libc6, lxrandr
+Filename: ./Included/lxrandr-save-fix_1.1_i386.deb
+Size: 1134
+MD5sum: 2c281519ee1a2fbad0e2bd7e7f1c05ca
+SHA1: ddcb57957c22a4c3338e41fe241bb356e8247931
+SHA256: 52a854982dfad78dc4024100c7b1d38c3fe73b2a55db2e2efa9418179a16c73a
+SHA512: befb707b2849086815552366792e7e94c434f2d50ce8509087cd4caa1bd4edf22f7762e10a0fa88f5916f764f87900bf095d1dd13d5a1f386fe0896c6b2b951a
+Description: desktop configuration save settings fix for DebianDog
+
 Package: linux-user-chroot
 Architecture: i386
 Version: 2015.1-5
@@ -594,23 +611,6 @@ Description: File Manager for Xfce
  Xfce desktop environment. It has been designed to be fast and easy to use.
  .
  Also included is an Xfce panel plugin which can manage the desktop trash.
-
-Package: lxrandr-save-fix
-Architecture: i386
-Version: 1.0
-Priority: extra
-Section: system
-Maintainer: root@wheezy
-Installed-Size: 158
-Provides: save-settings-after-reboot
-Depends: libc6, lxrandr
-Filename: ./Included/lxrandr-save-fix_1.0_i386.deb
-Size: 1130
-MD5sum: 41fe59c1b2bee1793b9d9567e08aaad7
-SHA1: 8944563dbd9db1fca5026a122476d1d76d9a9850
-SHA256: 7259a557f8b2025e6bc5986b9b321403fa56a91de44c7219d49ebdfe67dbb5a2
-SHA512: 33cc30acb1758c429a375e1f4417788ce69b665eb500880360992ac7d10f2154ac5c238a6c12d964564466bc12e542cd44943f843ea37d1943ad41f72b9de914
-Description: desktop configuration save settings fix for DebianDog
 
 Package: squashfuse
 Architecture: i386
@@ -1742,21 +1742,6 @@ SHA1: ce1e520f898b3294dbcb85057508f873d7f7e94a
 SHA256: f931ee51d5a7f0908890202c04669235c04063822de467bad709aaa8d4000067
 SHA512: adf05c48db9eefd66dfb51873c6a96f3bcf86208f69ab5c2359141bfeb2ecba83d6811153b341417c33b4ee4db41dfc62fbd714d5b705a4858ef05b76c7e8147
 Description: Preserve settings made with lxinput.
-
-Package: ffmpeg
-Architecture: i386
-Version: 11:3.1.2
-Priority: optional
-Section: video
-Maintainer: fredx181
-Installed-Size: 30000
-Filename: ./Extra/ffmpeg_3.1.2_i386.deb
-Size: 9324488
-MD5sum: bf76c040ddea53da46abe56ee5ca7d7f
-SHA1: f81787e30cb760114589d7d956ec273d08e74c69
-SHA256: 20cc612833a95122a239a0dbac8f3831542e4a5603bfd2d0bfdecf3b508e3204
-SHA512: 2f83b3648d15e0f4ebed01f723aad0ec0aa43c5b588c0cb4c449ff24afa8e4cdc45f905339e31f59cc526dc9eadc326b133071843534d7775ac51ae0a1a92e67
-Description: Static build of the latest FFmpeg binaries
 
 Package: dogradio
 Architecture: i386

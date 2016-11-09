@@ -844,7 +844,6 @@ usr/bin/Lumina-DE					    lumina-desktop-debdog
 usr/bin/Thunar						    thunar
 usr/bin/Xdialog						    gtkdialog
 usr/bin/apulse						    apulse
-usr/bin/avconv						    ffmpeg
 usr/bin/cddetect					    pburn
 usr/bin/cddetect_quick					    pburn
 usr/bin/cdrecord					    pburn
