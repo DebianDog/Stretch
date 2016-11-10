@@ -2067,6 +2067,25 @@ Description: Curses interface to /etc/network/interfaces
  Ceni can manage basic network interface ifupdown configuration stanzas for
  ethernet and wireless devices.
 
+Package: dogradio
+Architecture: i386
+Version: 0.0.7b
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.7 | mplayer, file, streamripper
+Filename: ./Extra/dogradio_0.0.7b_i386.deb
+Size: 935894
+MD5sum: 583fa71daeb19853bc498ad79188dafa
+SHA1: 7e7c46bda4a015ea4064840e27d3d3bdd3b27c6c
+SHA256: 5138dbef91899e6efa5ffb65c4bb1f42e4135c8eb37940c3797c9b071a8f47ed
+SHA512: ea01f4580cb36681604a64f243f51a5d95559c5408a631e14c6f5920aaee443483872874ac81eac57e51593bf152216b7ec3377dcb320dcc7d62c9c379706974
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
+
 Package: scrox
 Architecture: i386
 Version: 0.8-17
