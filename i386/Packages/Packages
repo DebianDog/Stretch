@@ -527,6 +527,24 @@ SHA256: 92ff337a410762e6b9db2532fea8a52b587cf0ac4c4d9ab4f5e11bcb427ca3bd
 SHA512: 70e4d4bc128087a91d294cbf16a3d7705ad6ceb8d66200d07979a987a9bc3c53ebda5013af6ce98f57fff2b562877cc8334ab05c638c0200853303866d618ad2
 Description: Openbox keybind configuration GUI
 
+Package: quick-remaster
+Architecture: all
+Version: 1.0.5
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 49
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./Included/quick-remaster_1.0.5_all.deb
+Size: 9000
+MD5sum: e06c6442bf71ca1d087c608e679f169a
+SHA1: 9991d0288965822b52e024bdc02992fca1c656fc
+SHA256: 909145c1307fe6dffe7d6d1314f479f00cfc3b070d5284659b7ec031ad6bf548
+SHA512: 7e6dfac7ab527b5ef27da379027ba8837d01c99bcaf2e996a641fedaa7fe7ac1489da9c697a7538426c7d517e8610100a3fb71173787d5e58ca06d86fd75814f
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ .
+
 Package: zenity-portable
 Architecture: i386
 Version: 2.30.0
