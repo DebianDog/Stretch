@@ -891,6 +891,25 @@ Description: very small lightweight pure X11 window manager with tray and menus
  Compared to other light WM, like Fvwm95, the Jwm consumes considerably
  less memory while providing the same functionality.
 
+Package: porteusbootscripts
+Architecture: i386
+Version: 0.0.2c
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6
+Filename: ./Included/porteusbootscripts_0.0.2c_i386.deb
+Size: 10660
+MD5sum: 66a42e3bc6bb8dba367244ec4c7bcbd7
+SHA1: 9e5a5db2466ac27afc4918a33d4db53f1048907e
+SHA256: fef5a81cd8638140917c0f13930a4ee66fce127e82dd1697f75db57373c363b4
+SHA512: d293302a4fabd25040293dbcaea9004a35cd55069c0078d5f23858dcd66c6ed2a90277b553d16d9445858b10410757dd33243d151e38653ddeb7f31410141147
+Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+
 Package: makedebpackage
 Architecture: i386
 Version: 0.0.3
