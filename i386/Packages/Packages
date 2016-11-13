@@ -1,3 +1,22 @@
+Package: porteusbootscripts
+Architecture: i386
+Version: 0.0.3
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6
+Filename: ./Included/porteusbootscripts_0.0.3_i386.deb
+Size: 10660
+MD5sum: 4c9c41ea7f930a565272e3a07b384315
+SHA1: d553243079963c7b8869801251522ead52e19e05
+SHA256: c37cdc0dde119200272e5c8bf9c5693baa28aaa3b5fb465f01d8d50595d66f86
+SHA512: 5f6a45c0ff969ea619804ec87dccfa52d80d74408aa94936207ea8c1a87a44f08ac478407b2403691c2bad24249c285dff80df98c9cbd002b1e16bd19d6fe13d
+Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+
 Package: rox-filer
 Architecture: i386
 Version: 1:2.11
