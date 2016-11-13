@@ -917,11 +917,11 @@ Maintainer: root@jessie
 Installed-Size: 56
 Depends: libc6
 Filename: ./Included/porteusbootscripts_0.0.2c_i386.deb
-Size: 10660
-MD5sum: 66a42e3bc6bb8dba367244ec4c7bcbd7
-SHA1: 9e5a5db2466ac27afc4918a33d4db53f1048907e
-SHA256: fef5a81cd8638140917c0f13930a4ee66fce127e82dd1697f75db57373c363b4
-SHA512: d293302a4fabd25040293dbcaea9004a35cd55069c0078d5f23858dcd66c6ed2a90277b553d16d9445858b10410757dd33243d151e38653ddeb7f31410141147
+Size: 10654
+MD5sum: 14a1dcb143054f610b8e6c9d2f15e384
+SHA1: 76a31c9a184911fd2240718c65f03266bc9961b1
+SHA256: a03bd81f295ba93430244187cd3bb03122791f9099f567b0872524cab720b2ce
+SHA512: 0a9cf4187afed5b90c31c1466e4813a30dbd11074b4aa2f84fa8089ae482e39e42c954c53323ec6b5fdf339cec02d08d4ef96946b0dfb88e9b55fac7a60a0854
 Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
  This version has included the scripts for the new-save-setup
  Note: Removing this package does not make any change.
@@ -942,6 +942,24 @@ SHA256: f6c18eb46f9270c3cf14b70b4123d0e3fe0705f424beb2fc1988fda4c4075f03
 SHA512: 3ff518c0732163b216b5bd36788c8eb69ae1fbe802787c6a07ea3168d40e4782dc8c6ca20c58d707f8df897d4e3d4896dc1294309008ddfbfa5a9af434de1df5
 Description: The makedebpackage (re)builds a debian package 
  makedebpackage by MakeDEBPackage-GUI.
+
+Package: quick-remaster
+Architecture: all
+Version: 1.0.7
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 49
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./Included/quick-remaster_1.0.7_all.deb
+Size: 9268
+MD5sum: 48e6b598a69fb4a8c60a2c09cb1df51b
+SHA1: 492e33f314e44e07e7f33ae1591c301a42ba669c
+SHA256: 3d5371d3f2539ceb87a2e528deecb283e23304ba109654afef322ffe2c402e65
+SHA512: 3f43cbe67fd0b8ababf0971fa046ddcb8d6cd8b7d9c665c0058babf2aa429ddb3ca617d7ebd30b5a38e68fc84f96768b2d65146fde9088cc5e374e38caa0838e
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp
+ Change: instead simple mount --bind / .. bind directories separate with exclusions
 
 Package: libqt3-mt
 Architecture: i386
