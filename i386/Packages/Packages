@@ -844,6 +844,24 @@ Description: Yet Another Dialog - dialogs for shell
  the long time, but many interesting ideas which are ignored by
  developers/maintainers were in GNOME Bugzilla.
 
+Package: quick-remaster
+Architecture: all
+Version: 1.0.6
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 49
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./Included/quick-remaster_1.0.6_all.deb
+Size: 9014
+MD5sum: 485fbe8bfe340297ff997d8c4c658799
+SHA1: 48daa1735f152fea7b14325ff880b46acb9a21a5
+SHA256: c2f6e56e00495916a42fa36f7b106f0d2eb05ffcd34b964dd8ef9cee8d116e51
+SHA512: a53f44cba3b4d75fd480fa23507363a38cc550b363318663c69c2dbaf02762ec820918cd37b74cd17f9e6e25dc848cb970fdcbfd26a727b315ccc20ccbdecc84
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ .
+
 Package: sns
 Architecture: i386
 Version: 2.1.1
