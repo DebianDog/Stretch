@@ -607,7 +607,7 @@ Description: ffconvert for DebianDog.
 
 Package: thunar
 Architecture: i386
-Version: 1:1.6.10-4
+Version: 2:1.6.10-4
 Priority: optional
 Section: xfce
 Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
@@ -618,11 +618,11 @@ Suggests: thunar-archive-plugin, thunar-media-tags-plugin
 Breaks: thunar-data (<< 1.2.3-3)
 Replaces: thunar-data (<< 1.2.3-3)
 Filename: ./Included/thunar_1.6.10-4_i386.deb
-Size: 305720
-MD5sum: e4caaa3e4767ee56969ea2fbc04115af
-SHA1: 60359e92336c4c3f01639b1bd5edb6ced8c0743e
-SHA256: 6de4c52df9b337e96e6af2a9fde47d87a6d5a7fed5cdf86e39eba85c6a0267cb
-SHA512: 52ce31ce086f6e08c557be01196c753da824d9ad2318abac65879cb5d3a1546f031ed9f23889158f430ba1278403772f49852d73893cc238d415996ceb0ae5ca
+Size: 305770
+MD5sum: b1535f352c98dcfc397da196596e2c08
+SHA1: d357b013cc5c3c8a0b321e8a1f9620cdc5af4eb8
+SHA256: 95acd8d9de4e985a88fcf70e8eca891525b80e5ddcf22cb0b886d9ae338c1d8a
+SHA512: 880815de7831167e4bfef917ebe05ce0b9828bf4ba1d71fe265e4797a5a8ac3c45df3d8d955bf5df536f117a104981f9b5756a5269dbbc566b7b60072ee5c853
 Homepage: http://thunar.xfce.org
 Description: File Manager for Xfce
  Thunar is the file manager designed to be the default file manager for the
