@@ -103,34 +103,6 @@ Description: X display manager
  process which presents the user with a menu of possible hosts that offer
  XDMCP display management.
 
-Package: live-boot-initramfs-tools
-Architecture: all
-Version: 4.0.2-1
-Priority: optional
-Section: misc
-Source: live-boot
-Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
-Installed-Size: 68
-Provides: live-boot-backend
-Depends: busybox | busybox-initramfs, initramfs-tools, udev
-Conflicts: live-boot-backend
-Replaces: live-boot-backend
-Filename: ./Included/live-boot-initramfs-tools_4.0.2-1_all.deb
-Size: 29312
-MD5sum: 74d611f1f0a0eb7722597bc8da2b0b2e
-SHA1: 9493242f23bf5678cead14cea9aced110f7debca
-SHA256: 8eb645e028a4aab90fa979d7bb41fa6349b291fd706f90b4bd43653b4561143d
-SHA512: ffcfbc333e39e7d46b724aed4ef74f8f43bc3df31465eaf42048a25d3656fdbbd085772d146014d47a194e2a267661f736b49d321b7702f6ccc21224f22d75ab
-Homepage: http://live-systems.org/devel/live-boot/
-Description: Live System Boot Components (initramfs-tools backend)
- The Live Systems project maintains the components to build Debian based Live
- systems and the official Debian Live images themselves.
- .
- live-boot contains the components to configure a live system during the boot
- process (early userspace).
- .
- This package contains the initramfs-tools backend.
-
 Package: libdconf0
 Architecture: i386
 Version: 0.12.1-3
@@ -314,33 +286,6 @@ SHA1: c311249a31796e576f5522988a477a0d54041f78
 SHA256: 69df8db58f4d0d1c9d2885cbc55d0b4951265212e374bdec8bdfbab1a1d46194
 SHA512: c30ddfefe42a98ff27d74d49a943df6b75d0fecc6d46ed22375ffc0cfe2c8bfb4a2894ed0dee2c66314a3d2623504b3ecd33396310495c51918e8e3f7e27ab8b
 Description: Make and auto-mount swap file script. Security fix: owner root:root and chmod 0600 for new created swap file.
-
-Package: live-boot
-Architecture: all
-Version: 4.0.2-1
-Priority: optional
-Section: misc
-Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
-Installed-Size: 159
-Depends: live-boot-initramfs-tools | live-boot-backend
-Recommends: live-boot-doc, live-tools, rsync, uuid-runtime
-Suggests: curlftpfs, cryptsetup, httpfs2, unionfs-fuse, wget
-Filename: ./Included/live-boot_4.0.2-1_all.deb
-Size: 51906
-MD5sum: 66297d37b9b507dde94d252a9d3c27a8
-SHA1: cee8a02da7801e50c0f11b9e05668ba5f0544bde
-SHA256: 4a075089e592c9202d581df5f254efe9deb82f32ad63002fbb5f710bfd20b518
-SHA512: 0577bb26241d98ccafd1a070d79b10bf7c2c1597bb54487a12b94734a687f347969bd656c7939e6339e11d20f2fa724f87c5db5260ef58fe3a738a5c2aa5e566
-Homepage: http://live-systems.org/devel/live-boot/
-Description: Live System Boot Components
- The Live Systems project maintains the components to build Debian based Live
- systems and the official Debian Live images themselves.
- .
- live-boot contains the components to configure a live system during the boot
- process (early userspace).
- .
- In addition to live-boot, a backend for the initrd generation is required, such
- as live-boot-initramfs-tools.
 
 Package: apt2sfs
 Architecture: i386
@@ -928,25 +873,6 @@ Description: very small lightweight pure X11 window manager with tray and menus
  Compared to other light WM, like Fvwm95, the Jwm consumes considerably
  less memory while providing the same functionality.
 
-Package: porteusbootscripts
-Architecture: i386
-Version: 0.0.2c
-Section: checkinstall
-Maintainer: root@jessie
-Installed-Size: 56
-Depends: libc6
-Filename: ./Included/porteusbootscripts_0.0.2c_i386.deb
-Size: 10654
-MD5sum: 14a1dcb143054f610b8e6c9d2f15e384
-SHA1: 76a31c9a184911fd2240718c65f03266bc9961b1
-SHA256: a03bd81f295ba93430244187cd3bb03122791f9099f567b0872524cab720b2ce
-SHA512: 0a9cf4187afed5b90c31c1466e4813a30dbd11074b4aa2f84fa8089ae482e39e42c954c53323ec6b5fdf339cec02d08d4ef96946b0dfb88e9b55fac7a60a0854
-Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
- This version has included the scripts for the new-save-setup
- Note: Removing this package does not make any change.
- This is on purpose because the scrips are essential for porteus-boot to work
- Bug fix: set the correct permissions for /tmp (save2flash script)
-
 Package: makedebpackage
 Architecture: i386
 Version: 0.0.3
@@ -1089,24 +1015,6 @@ Description: Yet Another Dialog - dialogs for shell
  ChangeLog consists of just "bump version to..." and "translation updated" for
  the long time, but many interesting ideas which are ignored by
  developers/maintainers were in GNOME Bugzilla.
-
-Package: porteusbootscripts
-Architecture: i386
-Version: 0.0.2b
-Section: checkinstall
-Maintainer: root@jessie
-Installed-Size: 56
-Depends: libc6
-Filename: ./Included/porteusbootscripts_0.0.2b_i386.deb
-Size: 10614
-MD5sum: 510759d0e219e3936f678ade56335a14
-SHA1: 4c02faf9d8a73c0bf1c1d2f3c4e067d613412cef
-SHA256: 08055c9b1f138ce72294d8e499c615d082c33a4dcf526d24d6c8fdcae3f5ea1a
-SHA512: e9e6d317bb1e853297e6787a33c612fedb56eaae64b7e6c751a5982cdd03985a4ade7f763e4c3659fd57c4ff4ca0d2086c9662bc39e4c216390c9a5f5860d21e
-Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
- This version has included the scripts for the new-save-setup
- Note: Removing this package does not make any change.
- This is on purpose because the scrips are essential for porteus-boot to work
 
 Package: pburn
 Architecture: i386
