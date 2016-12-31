@@ -1,0 +1,12 @@
+# Install
+sudo apt-get install bamfdaemon=0.2.118-1+b1 dde-account-faces dde-api dde-calendar dde-control-center dde-daemon dde-desktop dde-dock dde-launcher dde-session-ui deepin-artwork-themes deepin-desktop-base deepin-desktop-schemas deepin-file-manager-backend deepin-icon-theme deepin-menu deepin-metacity deepin-metacity-common deepin-mutter deepin-mutter-common gir1.2-deepin-mutter-3.0 deepin-nautilus-properties deepin-notifications deepin-qml-widgets deepin-sound-theme deepin-wm deepin-wm-switcher libbamf3-0=0.2.118-1+b1 libdeepin-metacity-private3 libdeepin-mutter0g libdeepin-wm0 libdtkbase libdtkutil libdtkwidget startdde
+
+# Pin packages: bamfdaemon and libbamf3-0 , add to /etc/apt/preferences :
+
+Package: bamfdaemon
+Pin: version 0.2.118-1+b1
+Pin-Priority: 1001
+
+Package: libbamf3-0
+Pin: version 0.2.118-1+b1
+Pin-Priority: 1001
