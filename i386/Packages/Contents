@@ -135,6 +135,7 @@ etc/wgetrc						    wget
 etc/wpa/wpa.conf					    wifibox-dhcpcd,wifibox
 etc/wpa/wpa_empty.conf					    wifibox-dhcpcd,wifibox
 etc/wpa/wpa_supplicant.conf				    wifibox-dhcpcd,wifibox
+etc/xdg/Thunar/uca.xml					    thunar-data
 etc/xdg/autostart/deepin-menu.desktop			    deepin-menu
 etc/xdg/autostart/lastore-session-helper.desktop	    lastore-daemon
 etc/xdg/menus/dog-applications.menu			    jwm-setup
@@ -4747,6 +4748,7 @@ usr/lib/gio/modules/libpup-volume-monitor.so		    pup-volume-monitor
 usr/lib/grub4dos/default				    grub4dosconfig
 usr/lib/grub4dos/grldr					    grub4dosconfig
 usr/lib/grub4dos/wee.mbr				    grub4dosconfig
+usr/lib/gtk-2.0/modules/libgtk2desklet.so		    gtkdesklet
 usr/lib/i386-linux-gnu/Thunar/ThunarBulkRename		    thunar
 usr/lib/i386-linux-gnu/Thunar/thunar-sendto-email	    thunar
 usr/lib/i386-linux-gnu/deepin-wm/plugins/libgala-zoom.so    deepin-wm
@@ -4796,6 +4798,8 @@ usr/lib/i386-linux-gnu/libnettle.so.4.7			    libnettle4
 usr/lib/i386-linux-gnu/libpng12.so.0			    libpng12-0
 usr/lib/i386-linux-gnu/libpng12.so.0.50.0		    libpng12-0
 usr/lib/i386-linux-gnu/libssl.so.1.0.0			    libssl1.0.0
+usr/lib/i386-linux-gnu/libthunarx-2.so.0		    libthunarx-2-0
+usr/lib/i386-linux-gnu/libthunarx-2.so.0.0.0		    libthunarx-2-0
 usr/lib/i386-linux-gnu/libx264.so.132			    libx264-132
 usr/lib/i386-linux-gnu/libxml2.a			    libxml2-dev
 usr/lib/i386-linux-gnu/libxml2.so			    libxml2-dev
@@ -5097,6 +5101,10 @@ usr/lib/i386-linux-gnu/qt5/qml/Deepin/Widgets/DssTitle.qml  deepin-qml-widgets
 usr/lib/i386-linux-gnu/qt5/qml/Deepin/Widgets/libDeepinWidgets.so deepin-qml-widgets
 usr/lib/i386-linux-gnu/qt5/qml/Deepin/Widgets/plugins.qmltypes deepin-qml-widgets
 usr/lib/i386-linux-gnu/qt5/qml/Deepin/Widgets/qmldir	    deepin-qml-widgets
+usr/lib/i386-linux-gnu/thunarx-2/thunar-apr.so		    libthunarx-2-0
+usr/lib/i386-linux-gnu/thunarx-2/thunar-sbr.so		    libthunarx-2-0
+usr/lib/i386-linux-gnu/thunarx-2/thunar-uca.so		    libthunarx-2-0
+usr/lib/i386-linux-gnu/thunarx-2/thunar-wallpaper-plugin.so libthunarx-2-0
 usr/lib/i386-linux-gnu/xfce4/panel/plugins/libthunar-tpa.so thunar
 usr/lib/i386-linux-gnu/xml2Conf.sh			    libxml2-dev
 usr/lib/i486/libcrypto.so.0.9.8				    libssl0.9.8
@@ -5621,6 +5629,8 @@ usr/local/bin/clear-changes-start			    quick-remaster
 usr/local/bin/conkyclock				    conkyclock
 usr/local/bin/conkyclock-2				    conkyclock2
 usr/local/bin/conv-sfs					    edit-sfs-thunar
+usr/local/bin/dancingletters-forum			    dancing-letters
+usr/local/bin/dancingletters-html			    dancing-letters
 usr/local/bin/debdog-advert-blocker			    debdog-advert-blocker
 usr/local/bin/debdog-full-install			    debdoginstallscripts
 usr/local/bin/debdog-install				    debdoginstallscripts
@@ -5644,6 +5654,11 @@ usr/local/bin/freememapplet_start			    freememapplettray
 usr/local/bin/freememapplet_stop			    freememapplettray
 usr/local/bin/freememapplet_tray			    freememapplettray
 usr/local/bin/gethosts					    debdog-advert-blocker
+usr/local/bin/gifdance					    gifdance
+usr/local/bin/gifenc					    gifenc
+usr/local/bin/gifenc-sel				    gifenc
+usr/local/bin/gifondesktop				    gifondesktop
+usr/local/bin/gifshow					    gifondesktop
 usr/local/bin/gnome-mplayer				    gnome-mplayer-1.0.7
 usr/local/bin/grldr					    debdoginstallscripts
 usr/local/bin/gsu					    gsu
@@ -5651,6 +5666,7 @@ usr/local/bin/gsu-notimeout				    gsu
 usr/local/bin/gsu-root					    remaster-scripts
 usr/local/bin/gsu-timeout				    gsu
 usr/local/bin/gsu-xterm					    gsu
+usr/local/bin/gtkdialog-desklet				    gtkdesklet
 usr/local/bin/guess_fstype				    guessfstype
 usr/local/bin/install-deb-and-dependencies		    fixdepinstall
 usr/local/bin/install-dir-debs-and-dependencies		    fixdepinstall
@@ -7408,6 +7424,49 @@ usr/local/conky-clock2/theme/small/97base.png		    conkyclock2
 usr/local/conky-clock2/theme/small/98base.png		    conkyclock2
 usr/local/conky-clock2/theme/small/99base.png		    conkyclock2
 usr/local/conky-clock2/theme/small/9base.png		    conkyclock2
+usr/local/dancingletters/!.gif				    gifdance
+usr/local/dancingletters/$.gif				    gifdance
+usr/local/dancingletters/&.gif				    gifdance
+usr/local/dancingletters/0.gif				    gifdance
+usr/local/dancingletters/1.gif				    gifdance
+usr/local/dancingletters/2.gif				    gifdance
+usr/local/dancingletters/3.gif				    gifdance
+usr/local/dancingletters/4.gif				    gifdance
+usr/local/dancingletters/5.gif				    gifdance
+usr/local/dancingletters/6.gif				    gifdance
+usr/local/dancingletters/7.gif				    gifdance
+usr/local/dancingletters/8.gif				    gifdance
+usr/local/dancingletters/9.gif				    gifdance
+usr/local/dancingletters/@.gif				    gifdance
+usr/local/dancingletters/A.gif				    gifdance
+usr/local/dancingletters/B.gif				    gifdance
+usr/local/dancingletters/C.gif				    gifdance
+usr/local/dancingletters/D.gif				    gifdance
+usr/local/dancingletters/E.gif				    gifdance
+usr/local/dancingletters/F.gif				    gifdance
+usr/local/dancingletters/G.gif				    gifdance
+usr/local/dancingletters/H.gif				    gifdance
+usr/local/dancingletters/I.gif				    gifdance
+usr/local/dancingletters/J.gif				    gifdance
+usr/local/dancingletters/K.gif				    gifdance
+usr/local/dancingletters/L.gif				    gifdance
+usr/local/dancingletters/M.gif				    gifdance
+usr/local/dancingletters/N.gif				    gifdance
+usr/local/dancingletters/O.gif				    gifdance
+usr/local/dancingletters/P.gif				    gifdance
+usr/local/dancingletters/Q.gif				    gifdance
+usr/local/dancingletters/R.gif				    gifdance
+usr/local/dancingletters/S.gif				    gifdance
+usr/local/dancingletters/T.gif				    gifdance
+usr/local/dancingletters/U.gif				    gifdance
+usr/local/dancingletters/V.gif				    gifdance
+usr/local/dancingletters/W.gif				    gifdance
+usr/local/dancingletters/X.gif				    gifdance
+usr/local/dancingletters/Y.gif				    gifdance
+usr/local/dancingletters/Y.giff				    gifdance
+usr/local/dancingletters/Z.gif				    gifdance
+usr/local/dancingletters/_.gif				    gifdance
+usr/local/dancingletters/q.gif				    gifdance
 usr/local/desktop_view_edit/desktop_view_edit		    desktop-editor
 usr/local/desktop_view_edit/func			    desktop-editor
 usr/local/desktop_view_edit/gtkrc_size			    desktop-editor
@@ -8220,6 +8279,8 @@ usr/share/Lumina-DE/luminaDesktop.conf			    lumina-desktop-debdog
 usr/share/Lumina-DE/quickplugins/quick-sample.qml	    lumina-desktop-debdog
 usr/share/Lumina-DE/themes/Lumina-default.qss.template	    lumina-desktop-debdog
 usr/share/Lumina-DE/themes/None.qss.template		    lumina-desktop-debdog
+usr/share/Thunar/sendto/bluetooth-sendto.desktop	    thunar-data
+usr/share/Thunar/sendto/gnome-obex-send.desktop		    thunar-data
 usr/share/Thunar/sendto/thunar-sendto-email.desktop	    thunar
 usr/share/X11/xdm/pixmaps/debian-old.xpm		    xdm
 usr/share/X11/xdm/pixmaps/debian.xpm			    xdm
@@ -8230,12 +8291,17 @@ usr/share/X11/xdm/pixmaps/xorg.xpm			    xdm
 usr/share/aclocal/libxml2.m4				    libxml2-dev
 usr/share/aclocal/yad.m4				    yad
 usr/share/appdata/thunar.appdata.xml			    thunar
+usr/share/applications/Animated Gif on Desktop.desktop	    gifondesktop
 usr/share/applications/ConkyClock.desktop		    conkyclock
 usr/share/applications/ConkyClock2.desktop		    conkyclock2
 usr/share/applications/Create-module-from-changes.desktop   remaster-scripts
+usr/share/applications/Dancing Letters Generator (HTML).desktop dancing-letters
+usr/share/applications/Dancing Letters Generator (forum).desktop dancing-letters
+usr/share/applications/Dancing Letters to GIF.desktop	    gifdance
 usr/share/applications/DebianDog-Full-Installer.desktop	    debdoginstallscripts
 usr/share/applications/DebianDog-Installer.desktop	    debdoginstallscripts
 usr/share/applications/DogRadio.desktop			    dogradio
+usr/share/applications/GifenC (video to _gif).desktop	    gifenc
 usr/share/applications/Grub4DosConfig.desktop		    grub4dosconfig
 usr/share/applications/ISO-Tools.desktop		    isotools
 usr/share/applications/Jwm.desktop			    jwm
@@ -8407,6 +8473,8 @@ usr/share/dbus-1/services/com.deepin.filemanager.Backend.Watcher.service deepin-
 usr/share/dbus-1/services/com.deepin.menu.service	    deepin-menu
 usr/share/dbus-1/services/net.jarre_de_the.Xvidcap.service  xvidcap
 usr/share/dbus-1/services/org.ayatana.bamf.service	    bamfdaemon
+usr/share/dbus-1/services/org.xfce.FileManager.service	    thunar-data
+usr/share/dbus-1/services/org.xfce.Thunar.service	    thunar-data
 usr/share/dbus-1/system-services/com.deepin.api.Device.service dde-api
 usr/share/dbus-1/system-services/com.deepin.api.GreeterHelper.service dde-api
 usr/share/dbus-1/system-services/com.deepin.api.LocaleHelper.service dde-api
@@ -9116,6 +9184,7 @@ usr/share/doc/flattr-icon-theme/changelog.gz		    flattr-icon-theme
 usr/share/doc/flattr-icon-theme/copyright		    flattr-icon-theme
 usr/share/doc/gir1.2-deepin-mutter-3.0/changelog.Debian.gz  gir1.2-deepin-mutter-3.0
 usr/share/doc/gir1.2-deepin-mutter-3.0/copyright	    gir1.2-deepin-mutter-3.0
+usr/share/doc/gtk2desklet/help.txt			    gtkdesklet
 usr/share/doc/help/C/grub4dos.html			    grub4dosconfig
 usr/share/doc/help/C/grub4dosconfig.html		    grub4dosconfig
 usr/share/doc/help/images/gnibbles.png			    grub4dosconfig
@@ -9216,6 +9285,7 @@ usr/share/doc/libssl0.9.8/copyright			    libssl0.9.8
 usr/share/doc/libssl1.0.0/changelog.Debian.gz		    libssl1.0.0
 usr/share/doc/libssl1.0.0/changelog.gz			    libssl1.0.0
 usr/share/doc/libssl1.0.0/copyright			    libssl1.0.0
+usr/share/doc/libthunarx-2-0				    libthunarx-2-0
 usr/share/doc/libudev0/changelog.Debian.gz		    libudev0
 usr/share/doc/libudev0/changelog.gz			    libudev0
 usr/share/doc/libudev0/copyright			    libudev0
@@ -9278,6 +9348,18 @@ usr/share/doc/squashfs-tools/copyright			    squashfs-tools
 usr/share/doc/startdde/changelog.Debian.gz		    startdde
 usr/share/doc/startdde/copyright			    startdde
 usr/share/doc/thunar					    thunar
+usr/share/doc/thunar-data/AUTHORS			    thunar-data
+usr/share/doc/thunar-data/FAQ.gz			    thunar-data
+usr/share/doc/thunar-data/HACKING			    thunar-data
+usr/share/doc/thunar-data/NEWS.gz			    thunar-data
+usr/share/doc/thunar-data/README			    thunar-data
+usr/share/doc/thunar-data/README.Debian			    thunar-data
+usr/share/doc/thunar-data/README.gtkrc			    thunar-data
+usr/share/doc/thunar-data/THANKS.gz			    thunar-data
+usr/share/doc/thunar-data/TODO				    thunar-data
+usr/share/doc/thunar-data/changelog.Debian.gz		    thunar-data
+usr/share/doc/thunar-data/changelog.gz			    thunar-data
+usr/share/doc/thunar-data/copyright			    thunar-data
 usr/share/doc/tzdata-l10n/changelog.Debian.gz		    tzdata-l10n
 usr/share/doc/tzdata-l10n/copyright			    tzdata-l10n
 usr/share/doc/wget/AUTHORS				    wget
@@ -9384,6 +9466,17 @@ usr/share/flite_hts_engine/hts_voice_cmu_us_arctic_slt-1.05/input.txt flite-hts-
 usr/share/frisbee/connect				    frisbee
 usr/share/frisbee/disconnect				    frisbee
 usr/share/frisbee/func					    frisbee
+usr/share/gifondesktop/deb1.gif				    gifondesktop
+usr/share/gifondesktop/deb2.gif				    gifondesktop
+usr/share/gifondesktop/dog-image.gif			    gifondesktop
+usr/share/gifondesktop/dogrun-red.gif			    gifondesktop
+usr/share/gifondesktop/dogsrunning.gif			    gifondesktop
+usr/share/gifondesktop/earth128.gif			    gifondesktop
+usr/share/gifondesktop/earth273.gif			    gifondesktop
+usr/share/gifondesktop/earth64.gif			    gifondesktop
+usr/share/gifondesktop/hound.gif			    gifondesktop
+usr/share/gifondesktop/hound245.gif			    gifondesktop
+usr/share/gifondesktop/snoopy.gif			    gifondesktop
 usr/share/glib-2.0/schemas/99_deepin-default-gsettings.gschema.override deepin-desktop-schemas
 usr/share/glib-2.0/schemas/com.deepin.dde.appearance.gschema.xml deepin-desktop-schemas
 usr/share/glib-2.0/schemas/com.deepin.dde.audio.gschema.xml deepin-desktop-schemas
@@ -21273,6 +21366,7 @@ usr/share/icons/flattr/status/24/xfpm-ups-charged.png	    flattr-icon-theme
 usr/share/icons/flattr/status/24/xfpm-ups-missing.png	    flattr-icon-theme
 usr/share/icons/hicolor/128x128/actions/media-autorun-nop.png dde-api
 usr/share/icons/hicolor/128x128/actions/media-autorun-open-folder.png dde-api
+usr/share/icons/hicolor/128x128/apps/Thunar.png		    thunar-data
 usr/share/icons/hicolor/128x128/apps/ceni.png		    ceni
 usr/share/icons/hicolor/128x128/apps/findnrun.png	    findnrun
 usr/share/icons/hicolor/128x128/apps/firefox-esr.png	    firefox-esr
@@ -21283,6 +21377,7 @@ usr/share/icons/hicolor/128x128/apps/yad.png		    yad
 usr/share/icons/hicolor/128x128/places/deepin-launcher.png  deepin-icon-theme
 usr/share/icons/hicolor/128x128/places/deepin-logo.png	    deepin-icon-theme
 usr/share/icons/hicolor/128x128/places/distributor-logo.png deepin-icon-theme
+usr/share/icons/hicolor/16x16/apps/Thunar.png		    thunar-data
 usr/share/icons/hicolor/16x16/apps/ceni.png		    ceni
 usr/share/icons/hicolor/16x16/apps/findnrun.png		    findnrun
 usr/share/icons/hicolor/16x16/apps/firefox-esr.png	    firefox-esr
@@ -21295,6 +21390,9 @@ usr/share/icons/hicolor/16x16/apps/tazpanel.png		    wifibox-dhcpcd,wifibox
 usr/share/icons/hicolor/16x16/apps/yad.png		    yad
 usr/share/icons/hicolor/16x16/categories/extension.png	    midori
 usr/share/icons/hicolor/16x16/status/internet-news-reader.png midori
+usr/share/icons/hicolor/16x16/stock/navigation/stock_folder-copy.png thunar-data
+usr/share/icons/hicolor/16x16/stock/navigation/stock_folder-move.png thunar-data
+usr/share/icons/hicolor/16x16/stock/navigation/stock_thunar-shortcuts.png thunar-data
 usr/share/icons/hicolor/192x192/apps/redshiftgui.png	    redshiftgui
 usr/share/icons/hicolor/22x22/apps/ceni.png		    ceni
 usr/share/icons/hicolor/22x22/apps/findnrun.png		    findnrun
@@ -21306,6 +21404,7 @@ usr/share/icons/hicolor/22x22/places/deepin-launcher.png    deepin-icon-theme
 usr/share/icons/hicolor/22x22/places/deepin-logo.png	    deepin-icon-theme
 usr/share/icons/hicolor/22x22/places/distributor-logo.png   deepin-icon-theme
 usr/share/icons/hicolor/22x22/status/internet-news-reader.png midori
+usr/share/icons/hicolor/24x24/apps/Thunar.png		    thunar-data
 usr/share/icons/hicolor/24x24/apps/findnrun.png		    findnrun
 usr/share/icons/hicolor/24x24/apps/gnome-mplayer.png	    gnome-mplayer-1.0.7
 usr/share/icons/hicolor/24x24/apps/redshiftgui.png	    redshiftgui
@@ -21313,6 +21412,8 @@ usr/share/icons/hicolor/24x24/apps/yad.png		    yad
 usr/share/icons/hicolor/24x24/places/deepin-launcher.png    deepin-icon-theme
 usr/share/icons/hicolor/24x24/places/deepin-logo.png	    deepin-icon-theme
 usr/share/icons/hicolor/24x24/places/distributor-logo.png   deepin-icon-theme
+usr/share/icons/hicolor/24x24/stock/navigation/stock_folder-copy.png thunar-data
+usr/share/icons/hicolor/24x24/stock/navigation/stock_folder-move.png thunar-data
 usr/share/icons/hicolor/256x256/apps/redshiftgui.png	    redshiftgui
 usr/share/icons/hicolor/32x32/apps/ceni.png		    ceni
 usr/share/icons/hicolor/32x32/apps/deepin-multitasking-view.png deepin-wm
@@ -21330,6 +21431,7 @@ usr/share/icons/hicolor/32x32/places/distributor-logo.png   deepin-icon-theme
 usr/share/icons/hicolor/36x36/apps/redshiftgui.png	    redshiftgui
 usr/share/icons/hicolor/48x48/actions/media-autorun-nop.png dde-api
 usr/share/icons/hicolor/48x48/actions/media-autorun-open-folder.png dde-api
+usr/share/icons/hicolor/48x48/apps/Thunar.png		    thunar-data
 usr/share/icons/hicolor/48x48/apps/ceni.png		    ceni
 usr/share/icons/hicolor/48x48/apps/deepin-multitasking-view.png deepin-wm
 usr/share/icons/hicolor/48x48/apps/deepin-show-desktop.png  dde-daemon
@@ -21455,6 +21557,7 @@ usr/share/icons/hicolor/48x48/status/wm-effect-enabled.png  deepin-icon-theme
 usr/share/icons/hicolor/48x48/status/wm-effect-error.png    deepin-icon-theme
 usr/share/icons/hicolor/64x64/actions/media-autorun-nop.png dde-api
 usr/share/icons/hicolor/64x64/actions/media-autorun-open-folder.png dde-api
+usr/share/icons/hicolor/64x64/apps/Thunar.png		    thunar-data
 usr/share/icons/hicolor/64x64/apps/ceni.png		    ceni
 usr/share/icons/hicolor/64x64/apps/deepin-multitasking-view.png deepin-wm
 usr/share/icons/hicolor/64x64/apps/deepin-show-desktop.png  dde-daemon
@@ -21474,6 +21577,7 @@ usr/share/icons/hicolor/96x96/apps/yad.png		    yad
 usr/share/icons/hicolor/icon-theme.cache		    yad
 usr/share/icons/hicolor/scalable/actions/media-autorun-nop.svg dde-api
 usr/share/icons/hicolor/scalable/actions/media-autorun-open-folder.svg dde-api
+usr/share/icons/hicolor/scalable/apps/Thunar.svg	    thunar-data
 usr/share/icons/hicolor/scalable/apps/ceni.svg		    ceni
 usr/share/icons/hicolor/scalable/apps/deepin-calendar.svg   dde-calendar
 usr/share/icons/hicolor/scalable/apps/deepin-multitasking-view.svg deepin-wm
@@ -22861,12 +22965,14 @@ usr/share/locale/af/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/af/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/af_ZA/LC_MESSAGES/dde-daemon.mo	    dde-daemon
 usr/share/locale/am/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/am/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/am/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/am/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/am/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/am/LC_MESSAGES/deepin-qml-widgets.mo	    deepin-qml-widgets
 usr/share/locale/am/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/ar/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/ar/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/ar/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/ar/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/ar/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -22877,6 +22983,7 @@ usr/share/locale/ar/LC_MESSAGES/epdfview.mo		    epdfview
 usr/share/locale/ar/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/as/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/as/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
+usr/share/locale/ast/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/ast/LC_MESSAGES/application_categories.mo  lastore-daemon
 usr/share/locale/ast/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/ast/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
@@ -22886,6 +22993,7 @@ usr/share/locale/ast/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/az/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/az/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/az/LC_MESSAGES/deepin-wm.mo		    deepin-wm
+usr/share/locale/be/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/be/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/be/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/be/LC_MESSAGES/deepin-wm.mo		    deepin-wm
@@ -22893,6 +23001,7 @@ usr/share/locale/be/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/be@latin/LC_MESSAGES/deepin-metacity.mo    deepin-metacity-common
 usr/share/locale/be@latin/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/bg/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/bg/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/bg/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/bg/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/bg/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -22901,6 +23010,7 @@ usr/share/locale/bg/LC_MESSAGES/deepin-qml-widgets.mo	    deepin-qml-widgets
 usr/share/locale/bg/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/bg/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/bg/LC_MESSAGES/tzdata.mo		    tzdata-l10n
+usr/share/locale/bn/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/bn/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/bn/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/bn_IN/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -22912,6 +23022,7 @@ usr/share/locale/bs/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/bs/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/bs/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/bs/LC_MESSAGES/xfe.mo			    xfe
+usr/share/locale/ca/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/ca/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/ca/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/ca/LC_MESSAGES/deepin-wm.mo		    deepin-wm
@@ -22924,6 +23035,7 @@ usr/share/locale/ca@valencia/LC_MESSAGES/deepin-mutter.mo   deepin-mutter-common
 usr/share/locale/ckb/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/crh/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/cs/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/cs/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/cs/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/cs/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/cs/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -22941,6 +23053,7 @@ usr/share/locale/cs/LC_MESSAGES/xfe.mo			    xfe
 usr/share/locale/cy/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/cy/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/da/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/da/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/da/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/da/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/da/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -22952,6 +23065,7 @@ usr/share/locale/da/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/da/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/da/LC_MESSAGES/xfe.mo			    xfe
 usr/share/locale/de/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/de/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/de/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/de/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/de/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -22976,6 +23090,7 @@ usr/share/locale/dz/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/dz/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/dz/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/el/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/el/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/el/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/el/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/el/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -22995,21 +23110,25 @@ usr/share/locale/en@boldquot/LC_MESSAGES/libgnutls26.mo	    libgnutls26
 usr/share/locale/en@quot/LC_MESSAGES/gnutls-deb0-28.mo	    libgnutls-deb0-28
 usr/share/locale/en@quot/LC_MESSAGES/libgnutls26.mo	    libgnutls26
 usr/share/locale/en@shaw/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
+usr/share/locale/en_AU/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/en_AU/LC_MESSAGES/dde-daemon.mo	    dde-daemon
 usr/share/locale/en_AU/LC_MESSAGES/deepin-qml-widgets.mo    deepin-qml-widgets
 usr/share/locale/en_CA/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/en_CA/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/en_CA/LC_MESSAGES/deepin-wm.mo		    deepin-wm
+usr/share/locale/en_GB/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/en_GB/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/en_GB/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/en_GB/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/eo/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/eo/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/eo/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/eo/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/eo/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/eo/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/eo/LC_MESSAGES/gnutls-deb0-28.mo	    libgnutls-deb0-28
 usr/share/locale/es/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/es/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/es/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/es/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/es/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -23034,10 +23153,12 @@ usr/share/locale/es_AR/LC_MESSAGES/deepin-qml-widgets.mo    deepin-qml-widgets
 usr/share/locale/es_AR/LC_MESSAGES/xfe.mo		    xfe
 usr/share/locale/es_CL/LC_MESSAGES/dde-daemon.mo	    dde-daemon
 usr/share/locale/es_CO/LC_MESSAGES/xfe.mo		    xfe
+usr/share/locale/et/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/et/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/et/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/et/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/et/LC_MESSAGES/dpkg.mo			    dpkg
+usr/share/locale/eu/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/eu/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/eu/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/eu/LC_MESSAGES/deepin-wm.mo		    deepin-wm
@@ -23050,7 +23171,9 @@ usr/share/locale/fa/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/fa/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/fa/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/fa/LC_MESSAGES/deepin-wm.mo		    deepin-wm
+usr/share/locale/fa_IR/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/fi/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/fi/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/fi/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/fi/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/fi/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -23061,6 +23184,7 @@ usr/share/locale/fi/LC_MESSAGES/gnutls-deb0-28.mo	    libgnutls-deb0-28
 usr/share/locale/fi/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/fi/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/fr/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/fr/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/fr/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/fr/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/fr/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -23083,6 +23207,7 @@ usr/share/locale/fur/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/ga/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/ga/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/gl/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/gl/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/gl/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/gl/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/gl/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
@@ -23101,6 +23226,7 @@ usr/share/locale/gu/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/gu/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/ha/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/ha/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
+usr/share/locale/he/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/he/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/he/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/he/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23120,6 +23246,7 @@ usr/share/locale/hi_IN/LC_MESSAGES/application_categories.mo lastore-daemon
 usr/share/locale/hi_IN/LC_MESSAGES/dde-daemon.mo	    dde-daemon
 usr/share/locale/hi_IN/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/hr/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/hr/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/hr/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/hr/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/hr/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23129,6 +23256,7 @@ usr/share/locale/hr/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/hr/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/hr/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/hu/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/hu/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/hu/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/hu/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/hu/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23144,6 +23272,7 @@ usr/share/locale/hy/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/hy/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/hy/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/id/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/id/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/id/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/id/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/id/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -23158,9 +23287,11 @@ usr/share/locale/id_ID/LC_MESSAGES/dde-daemon.mo	    dde-daemon
 usr/share/locale/id_ID/LC_MESSAGES/deepin-qml-widgets.mo    deepin-qml-widgets
 usr/share/locale/ig/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/ig/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
+usr/share/locale/is/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/is/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/is/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/it/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/it/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/it/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/it/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/it/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -23180,6 +23311,7 @@ usr/share/locale/it/LC_MESSAGES/xfe.mo			    xfe
 usr/share/locale/it/LC_MESSAGES/xvidcap.mo		    xvidcap
 usr/share/locale/it/LC_MESSAGES/yad.mo			    yad
 usr/share/locale/ja/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/ja/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/ja/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/ja/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/ja/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23193,11 +23325,13 @@ usr/share/locale/ja/LC_MESSAGES/xfe.mo			    xfe
 usr/share/locale/ka/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/ka/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/ka/LC_MESSAGES/deepin-wm.mo		    deepin-wm
+usr/share/locale/kk/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/kk/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/km/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/kn/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/kn/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/ko/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/ko/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/ko/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/ko/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/ko/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23214,6 +23348,7 @@ usr/share/locale/la/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/la/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/lb/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/lt/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/lt/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/lt/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/lt/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/lt/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23222,6 +23357,7 @@ usr/share/locale/lt/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/lt/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/lt/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/lt/LC_MESSAGES/tzdata.mo		    tzdata-l10n
+usr/share/locale/lv/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/lv/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/lv/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/lv/LC_MESSAGES/deepin-wm.mo		    deepin-wm
@@ -23240,6 +23376,7 @@ usr/share/locale/mr/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/mr/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/mr/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/ms/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/ms/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/ms/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/ms/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/ms/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23249,6 +23386,7 @@ usr/share/locale/ms/LC_MESSAGES/gnutls-deb0-28.mo	    libgnutls-deb0-28
 usr/share/locale/ms/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/ms/LC_MESSAGES/libgnutls26.mo		    libgnutls26
 usr/share/locale/nb/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/nb/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/nb/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/nb/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/nb/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23263,6 +23401,7 @@ usr/share/locale/ne/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/ne/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/ne/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/nl/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/nl/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/nl/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/nl/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/nl/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -23278,20 +23417,24 @@ usr/share/locale/nl/LC_MESSAGES/libgnutls26.mo		    libgnutls26
 usr/share/locale/nl/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/nl/LC_MESSAGES/xfe.mo			    xfe
 usr/share/locale/nl_NL/LC_MESSAGES/epdfview.mo		    epdfview
+usr/share/locale/nn/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/nn/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/nn/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/nn/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/nn/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/no/LC_MESSAGES/xfe.mo			    xfe
+usr/share/locale/oc/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/oc/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/oc/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/om/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/or/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/or/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
+usr/share/locale/pa/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/pa/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/pa/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/pa/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/pl/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/pl/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/pl/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/pl/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/pl/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -23310,6 +23453,7 @@ usr/share/locale/pl/LC_MESSAGES/xfe.mo			    xfe
 usr/share/locale/pl_PL/LC_MESSAGES/deepin-qml-widgets.mo    deepin-qml-widgets
 usr/share/locale/pt-PT/LC_MESSAGES/jwm.mo		    jwm
 usr/share/locale/pt/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/pt/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/pt/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/pt/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/pt/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23320,6 +23464,7 @@ usr/share/locale/pt/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/pt/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/pt/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/pt_BR/LC_MESSAGES/DFMB.mo		    deepin-file-manager-backend
+usr/share/locale/pt_BR/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/pt_BR/LC_MESSAGES/application_categories.mo lastore-daemon
 usr/share/locale/pt_BR/LC_MESSAGES/dde-daemon.mo	    dde-daemon
 usr/share/locale/pt_BR/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23335,6 +23480,7 @@ usr/share/locale/pt_BR/LC_MESSAGES/yad.mo		    yad
 usr/share/locale/pt_PT/LC_MESSAGES/epdfview.mo		    epdfview
 usr/share/locale/pt_PT/LC_MESSAGES/xfe.mo		    xfe
 usr/share/locale/ro/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/ro/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/ro/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/ro/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/ro/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23344,6 +23490,7 @@ usr/share/locale/ro/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/ro/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/ro/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/ru/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/ru/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/ru/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/ru/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/ru/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23360,10 +23507,12 @@ usr/share/locale/ru/LC_MESSAGES/xfe.mo			    xfe
 usr/share/locale/ru/LC_MESSAGES/yad.mo			    yad
 usr/share/locale/rw/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/rw/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
+usr/share/locale/si/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/si/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/si/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/si/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/sk/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/sk/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/sk/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/sk/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/sk/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23374,6 +23523,7 @@ usr/share/locale/sk/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/sk/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/sk/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/sk/LC_MESSAGES/yad.mo			    yad
+usr/share/locale/sl/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/sl/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/sl/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/sl/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23381,16 +23531,19 @@ usr/share/locale/sl/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/sl/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/sl/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/sma/LC_MESSAGES/deepin-wm.mo		    deepin-wm
+usr/share/locale/sq/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/sq/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/sq/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/sq/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/sq/LC_MESSAGES/tzdata.mo		    tzdata-l10n
+usr/share/locale/sr/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/sr/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/sr/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/sr/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/sr@latin/LC_MESSAGES/deepin-metacity.mo    deepin-metacity-common
 usr/share/locale/sr@latin/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/sv/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/sv/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/sv/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/sv/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/sv/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -23409,9 +23562,11 @@ usr/share/locale/sv_SE/LC_MESSAGES/deepin-qml-widgets.mo    deepin-qml-widgets
 usr/share/locale/ta/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/ta/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/ta/LC_MESSAGES/deepin-wm.mo		    deepin-wm
+usr/share/locale/te/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/te/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/te/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/tg/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
+usr/share/locale/th/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/th/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/th/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/th/LC_MESSAGES/deepin-wm.mo		    deepin-wm
@@ -23421,6 +23576,7 @@ usr/share/locale/tk/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/tk/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/tl/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/tr/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/tr/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/tr/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/tr/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/tr/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23431,9 +23587,11 @@ usr/share/locale/tr/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/tr/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/tr/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/tr/LC_MESSAGES/xfe.mo			    xfe
+usr/share/locale/ug/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/ug/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/ug/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/uk/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/uk/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/uk/LC_MESSAGES/application_categories.mo   lastore-daemon
 usr/share/locale/uk/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/uk/LC_MESSAGES/dde-daemon.mo		    dde-daemon
@@ -23443,7 +23601,10 @@ usr/share/locale/uk/LC_MESSAGES/deepin-wm.mo		    deepin-wm
 usr/share/locale/uk/LC_MESSAGES/gnutls-deb0-28.mo	    libgnutls-deb0-28
 usr/share/locale/uk/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/uk/LC_MESSAGES/yad.mo			    yad
+usr/share/locale/ur/LC_MESSAGES/Thunar.mo		    thunar-data
+usr/share/locale/ur_PK/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/vi/LC_MESSAGES/DFMB.mo			    deepin-file-manager-backend
+usr/share/locale/vi/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/vi/LC_MESSAGES/cryptsetup.mo		    cryptsetup-bin
 usr/share/locale/vi/LC_MESSAGES/dde-daemon.mo		    dde-daemon
 usr/share/locale/vi/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23462,6 +23623,7 @@ usr/share/locale/xh/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/yo/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/yo/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
 usr/share/locale/zh_CN/LC_MESSAGES/DFMB.mo		    deepin-file-manager-backend
+usr/share/locale/zh_CN/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/zh_CN/LC_MESSAGES/application_categories.mo lastore-daemon
 usr/share/locale/zh_CN/LC_MESSAGES/dde-daemon.mo	    dde-daemon
 usr/share/locale/zh_CN/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23477,6 +23639,7 @@ usr/share/locale/zh_CN/LC_MESSAGES/libgnutls26.mo	    libgnutls26
 usr/share/locale/zh_CN/LC_MESSAGES/tzdata.mo		    tzdata-l10n
 usr/share/locale/zh_CN/LC_MESSAGES/xfe.mo		    xfe
 usr/share/locale/zh_HK/LC_MESSAGES/DFMB.mo		    deepin-file-manager-backend
+usr/share/locale/zh_HK/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/zh_HK/LC_MESSAGES/application_categories.mo lastore-daemon
 usr/share/locale/zh_HK/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
 usr/share/locale/zh_HK/LC_MESSAGES/deepin-mutter.mo	    deepin-mutter-common
@@ -23485,6 +23648,7 @@ usr/share/locale/zh_HK/LC_MESSAGES/find_n_run_hk.mo	    findnrun-nls
 usr/share/locale/zh_HK/LC_MESSAGES/lastore-daemon.mo	    lastore-daemon
 usr/share/locale/zh_SG/LC_MESSAGES/find_n_run_sg.mo	    findnrun-nls
 usr/share/locale/zh_TW/LC_MESSAGES/DFMB.mo		    deepin-file-manager-backend
+usr/share/locale/zh_TW/LC_MESSAGES/Thunar.mo		    thunar-data
 usr/share/locale/zh_TW/LC_MESSAGES/application_categories.mo lastore-daemon
 usr/share/locale/zh_TW/LC_MESSAGES/dde-daemon.mo	    dde-daemon
 usr/share/locale/zh_TW/LC_MESSAGES/deepin-metacity.mo	    deepin-metacity-common
@@ -23807,6 +23971,7 @@ usr/share/personalization/thumbnail/IconThemes/flattr-thumbnail.png deepin-artwo
 usr/share/personalization/thumbnail/WindowThemes/deepin-thumbnail.png deepin-artwork-themes
 usr/share/pixmaps/Insight-FileManager.png		    lumina-desktop-debdog
 usr/share/pixmaps/Lumina-DE.png				    lumina-desktop-debdog
+usr/share/pixmaps/Thunar/Thunar-about-logo.png		    thunar-data
 usr/share/pixmaps/application-x-squashfs.png		    sfs-get-smokey-get
 usr/share/pixmaps/application-x-squashfs2.png		    remaster-scripts
 usr/share/pixmaps/application-x-squashfs3.png		    quick-remaster
@@ -23817,6 +23982,8 @@ usr/share/pixmaps/ceni-16.xpm				    ceni
 usr/share/pixmaps/ceni.xpm				    ceni
 usr/share/pixmaps/clock_face33.png			    conkyclock2
 usr/share/pixmaps/clock_face45.png			    conkyclock
+usr/share/pixmaps/dance.png				    dancing-letters
+usr/share/pixmaps/dancegif.png				    gifdance
 usr/share/pixmaps/debdog-advert-blocker.png		    debdog-advert-blocker
 usr/share/pixmaps/dillo.png				    dillo
 usr/share/pixmaps/dillo.xpm				    dillo
@@ -23840,6 +24007,8 @@ usr/share/pixmaps/folder48.png				    jwm-setup
 usr/share/pixmaps/freemem-off.xpm			    freememapplettray
 usr/share/pixmaps/freemem-on.xpm			    freememapplettray
 usr/share/pixmaps/frisbee.png				    frisbee
+usr/share/pixmaps/gif-file.png				    gifondesktop
+usr/share/pixmaps/gifencc.png				    gifenc
 usr/share/pixmaps/gnibbles.png				    grub4dosconfig
 usr/share/pixmaps/go-next.png				    youtube-get2
 usr/share/pixmaps/go-previous.png			    youtube-get2
@@ -28457,6 +28626,9 @@ usr/share/xvidcap/glade/xvidcap_logo.png		    xvidcap
 usr/share/xvidcap/ppm2mpeg.sh				    xvidcap
 usr/share/xvidcap/xvidcap.desktop			    xvidcap
 usr/share/xvidcap/xvidcap.png				    xvidcap
+usr/src/gtk2desklet/compile				    gtkdesklet
+usr/src/gtk2desklet/install				    gtkdesklet
+usr/src/gtk2desklet/libgtk2desklet.c			    gtkdesklet
 usr/src/linux-headers-4.7.0-1-686-pae/.config		    linux-headers-4.7.0-1-686-pae
 usr/src/linux-headers-4.7.0-1-686-pae/.kernelvariables	    linux-headers-4.7.0-1-686-pae
 usr/src/linux-headers-4.7.0-1-686-pae/Makefile		    linux-headers-4.7.0-1-686-pae

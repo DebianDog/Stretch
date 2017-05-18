@@ -88,6 +88,25 @@ Description: Load a *.squashfs or *.sfs module.
  Changes in v 1.0.5:
  - kill processes which are keeping from proper unmounting (might be needed in some cases for SFS-load mode)
 
+Package: thunar-data
+Architecture: all
+Version: 1:1.6.11-1
+Priority: optional
+Section: xfce
+Source: thunar
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 4710
+Filename: ./Included/thunar-data_1.6.11-1_all.deb
+Size: 981144
+MD5sum: b5fa007fb694867ed180fbd0c9f4035b
+SHA1: b3a70509af2b099bfaac8bd2acf9759f6ca59b89
+SHA256: 7112847e18a5a98f0d812325a39f493414da092e97ac0705bcfde1aac8abfa24
+SHA512: 635a2970be8b2d3680ef73fd28bc8c6d384bea59be63ee2c3a3211f00727a2c9fe5c7c28348c70d61d01169aba06483441506c1ba2d47957c16cea5f323890b9
+Homepage: http://thunar.xfce.org
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar, the file
+ manager and file management libraries for Xfce desktop environment.
+
 Package: apt2sfs
 Architecture: i386
 Version: 1.1.1
@@ -648,31 +667,6 @@ Description: ffconvert for DebianDog.
  ffconvert by MakeDEBPackage-GUI.
  checks for Debian version and recommends libav-tools if it is 8 or higher.
 
-Package: thunar
-Architecture: i386
-Version: 2:1.6.10-4
-Priority: optional
-Section: xfce
-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
-Installed-Size: 1009
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.88), libexo-1-0 (>= 0.10.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libsm6, libthunarx-2-0 (>= 1.1.0), libxfce4ui-1-0 (>= 4.9.1), libxfce4util7 (>= 4.9.0), libxfconf-0-2 (>= 4.6.0), thunar-data (= 1.6.10-4), desktop-file-utils, shared-mime-info, exo-utils
-Recommends: dbus-x11, libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), xfce4-panel (>= 4.11), xfce4-panel (<< 4.13), thunar-volman, tumbler, xdg-user-dirs, gvfs
-Suggests: thunar-archive-plugin, thunar-media-tags-plugin
-Breaks: thunar-data (<< 1.2.3-3)
-Replaces: thunar-data (<< 1.2.3-3)
-Filename: ./Included/thunar_1.6.10-4_i386.deb
-Size: 305770
-MD5sum: b1535f352c98dcfc397da196596e2c08
-SHA1: d357b013cc5c3c8a0b321e8a1f9620cdc5af4eb8
-SHA256: 95acd8d9de4e985a88fcf70e8eca891525b80e5ddcf22cb0b886d9ae338c1d8a
-SHA512: 880815de7831167e4bfef917ebe05ce0b9828bf4ba1d71fe265e4797a5a8ac3c45df3d8d955bf5df536f117a104981f9b5756a5269dbbc566b7b60072ee5c853
-Homepage: http://thunar.xfce.org
-Description: File Manager for Xfce
- Thunar is the file manager designed to be the default file manager for the
- Xfce desktop environment. It has been designed to be fast and easy to use.
- .
- Also included is an Xfce panel plugin which can manage the desktop trash.
-
 Package: squashfuse
 Architecture: i386
 Version: 0.1.0
@@ -853,11 +847,11 @@ Maintainer: root
 Installed-Size: 14
 Depends: libc6, wget, inotify-tools, yad, sed, apt, squashfs-tools, menu, tar, gsu | gksu
 Filename: ./Included/flashplayerchoice_1.0.2_i386.deb
-Size: 7532
-MD5sum: d1d0c772451fb6b30fd7f6a780293727
-SHA1: c0e17b8c0433741f4577196388bace5d325a07d8
-SHA256: aa2b0d1bdd6c7d8ac73efd69d3b0acb4237fed8bf31a8996685bfee34b9a67c1
-SHA512: 0e03a08fa5564fb646f62bb509cf12af3fadc82555c4f46fc8afb449a32e17559e9ad9065722129f0db03c4e9df055371bb3e45dfa3b40599874f60e321278ee
+Size: 5832
+MD5sum: 40fdd14177e61bb0e70df4e192f4062b
+SHA1: 02c4742ebf8d5f44ff83bee5cc5067af8bf9aae8
+SHA256: 1af11d4711296ad599fbc3dbb08b43710ed637dcf4eb1fbdf33feb1f0220bffe
+SHA512: 54f1a8e9353bc32b6174dfc8e70fb94e9a794e82ec8f1d85dfa9ac9497261ac3f3d90099402b501853c54c52fb653aee064a4d1cbb8ce43dcb2be02b509953d8
 Description: The flashplayerchoice script gives choice of several options to install flashplayer :
  - version 10 from http://www.smokey01.com/OscarTalks/ (= 12 Mb uncompressed)
  - version 11 from http://www.smokey01.com/OscarTalks/ (= 17 Mb uncompressed)
@@ -923,6 +917,26 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Bug fix: set the correct permissions for /tmp 
  .
 
+Package: libthunarx-2-0
+Architecture: i386
+Version: 1:1.6.11-1
+Priority: optional
+Section: libs
+Source: thunar
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 261
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libexif12 (>= 0.6.21-1~), libexo-1-0 (>= 0.5.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpcre3, libsm6, libx11-6, libxfce4ui-1-0 (>= 4.8.0), libxfce4util7 (>= 4.9.0), libxfconf-0-2 (>= 4.6.0), thunar-data (= 1:1.6.11-1)
+Filename: ./Included/libthunarx-2-0_1.6.11-1_i386.deb
+Size: 66698
+MD5sum: ccec091cc8fc4906c4e3fa10378a1001
+SHA1: 09cb7d326db06db3295e051970c03fa6950f4474
+SHA256: 278a839d23899f6b7dc2fc93d09e951ed96fbfd45f74acfe1e1d68b5274a0da8
+SHA512: bbe63dec3561f967982de497b199007deeeaacc7bf98d967e806d467c20e792152169c1d1a036e8d78551870ea49c5d3a9f0f0ea31c3917011d5d03f0c53d011
+Homepage: http://thunar.xfce.org
+Description: extension library for thunar
+ This package contains the Thunar extension library which permits adding new
+ features to the Thunar file manager.
+
 Package: sns
 Architecture: i386
 Version: 2.1.1
@@ -984,6 +998,31 @@ SHA256: f6c18eb46f9270c3cf14b70b4123d0e3fe0705f424beb2fc1988fda4c4075f03
 SHA512: 3ff518c0732163b216b5bd36788c8eb69ae1fbe802787c6a07ea3168d40e4782dc8c6ca20c58d707f8df897d4e3d4896dc1294309008ddfbfa5a9af434de1df5
 Description: The makedebpackage (re)builds a debian package 
  makedebpackage by MakeDEBPackage-GUI.
+
+Package: thunar
+Architecture: i386
+Version: 1:1.6.11-1
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 1012
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.88), libexo-1-0 (>= 0.10.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libsm6, libthunarx-2-0 (>= 1:1.1.0), libxfce4ui-1-0 (>= 4.9.1), libxfce4util7 (>= 4.9.0), libxfconf-0-2 (>= 4.6.0), thunar-data (= 1:1.6.11-1), desktop-file-utils, shared-mime-info, exo-utils
+Recommends: default-dbus-session-bus | dbus-session-bus, libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), xfce4-panel (>= 4.11), xfce4-panel (<< 4.13), thunar-volman, tumbler, xdg-user-dirs, gvfs
+Suggests: thunar-archive-plugin, thunar-media-tags-plugin
+Breaks: thunar-data (<< 1.2.3-3)
+Replaces: thunar-data (<< 1.2.3-3)
+Filename: ./Included/thunar_1.6.11-1_i386.deb
+Size: 306822
+MD5sum: d52aca5d29389865a6eda6af5a7c5532
+SHA1: d333b6a3a7014f89fad6ce85308e9740969d10d0
+SHA256: 1693b120da35d047b0f72126c52660b58021b93a5a6a6cd234be4ca31d1720d0
+SHA512: d3a072bc0c1d048a59394a562939a36df971e2567bd8f995f0dee96cf97c6d71291e8088e51d787b56f6ff03db325fa6b98c6b26f2e6982c961fce64ce97d62c
+Homepage: http://thunar.xfce.org
+Description: File Manager for Xfce
+ Thunar is the file manager designed to be the default file manager for the
+ Xfce desktop environment. It has been designed to be fast and easy to use.
+ .
+ Also included is an Xfce panel plugin which can manage the desktop trash.
 
 Package: quick-remaster
 Architecture: all
@@ -1700,6 +1739,22 @@ Description: Common header files for Linux 4.7.0-1
  install the linux-headers-4.7.0-1-(flavour) package, matching the flavour
  of the kernel you intend the build for.
 
+Package: gifondesktop
+Architecture: i386
+Version: 1.0.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 3060
+Depends: libc6, gtkdialog, x11-utils, file, yad
+Filename: ./Extra/gifondesktop_1.0.0_i386.deb
+Size: 1675620
+MD5sum: 28e3ad74e1b356b75c51f82df6e0b65a
+SHA1: 88b8a7aa9ab23f7ae374971b1c762d631e806d0e
+SHA256: c788aa6141177dd6230d650d7ecb98fd6d3cbd3767331b71369e8e3e80f1dc61
+SHA512: 14370fc87ca5af56a4314ef43e906537b46482a772cafcab1cac5210149f652fb879e7e4e45c30dcc0031760e3ae19fc5e956bd451c973f0d3191bfd78635ae3
+Description: Display Animated Gif on Desktop
+
 Package: mpv
 Architecture: i386
 Version: 1:0.9.2-ddjessie
@@ -2029,6 +2084,22 @@ Description: PNG library - runtime
  .
  This package contains the runtime library files needed to run software
  using libpng.
+
+Package: gifdance
+Architecture: i386
+Version: 1.0.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 355
+Depends: libc6, imagemagick, yad
+Filename: ./Extra/gifdance_1.0.0_i386.deb
+Size: 311112
+MD5sum: 8c804d621457914c606d877d81d28be8
+SHA1: 1c7fee479199b9c075127f8051cfd4bb5677e178
+SHA256: 68c3bb6af223dfde996149435299aefdc3cb5dc8e4883fa140a418cc2a3a9c8f
+SHA512: 2db06ce89e1bfe7269470f3977efe695ecae9c47c8defde113fafde9494658c9c90bd984235ed7e05ab4477d1f48a6922deaacf813606013dc0e8e5e503f144d
+Description: Create GIF from dancing letters
 
 Package: linux-kbuild-4.7
 Architecture: i386
@@ -2526,6 +2597,22 @@ Description: low level cryptographic library (symmetric and one-way cryptos)
  algorithms. To avoid having this package depend on libgmp, the
  asymmetric cryptos reside in a separate library, libhogweed.
 
+Package: gtkdesklet
+Architecture: i386
+Version: 1.0.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 56
+Depends: libc6
+Filename: ./Extra/gtkdesklet_1.0.1_i386.deb
+Size: 13972
+MD5sum: 95c9f990acec556e69c7e110c00c63a7
+SHA1: d72167f4f25c584036006173d3c4d886c9c68f9b
+SHA256: 89e5cafa794e0f82487649cee12ddcf4a4e06740781b462ed74fdbf20d424ff6
+SHA512: a12958cdbc0c5c2983b9d3fbfd6719a9b252c1b03a012d2badccab0d5201cad8ee429d1e169b1018f5ec40b8e2277d8b166f0678e5a936ad41478f1fec1c7e77
+Description: gtkdesklet
+
 Package: Firewall-Puppy
 Architecture: i386
 Version: 1.0.0-2
@@ -2706,6 +2793,22 @@ SHA512: ff79ba367b8aadaae4b281656bb607d09e77a97ece9fb567fa0e039199b8a45e42d678a6
 Homepage: http://www.slimjet.com
 Description: Fast, smart and powerful browser based on Blink
  Slimjet is a fast, smart and powerful web browser based on the Blink engine. It is built on top of the Chromium open source project, on which Google chrome is also based. Slimjet integrates a lot of powerful and convenient features to help users maximize their online productivity. Slimjet also includes many options and settings so that users can customize the browser to best suit their own personal preference.
+
+Package: dancing-letters
+Architecture: i386
+Version: 1.0.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 108
+Depends: libc6
+Filename: ./Extra/dancing-letters_1.0.0_i386.deb
+Size: 59588
+MD5sum: 9b2135f934f86d24f96a530e51cd97fe
+SHA1: 92b13a4b7e3e0040f6bb9066d8d146bc3e57a408
+SHA256: c7301f4af005d2708e0066c65ddeef4eb3f28aa31b47b24e439bf49a55e44d27
+SHA512: 61d149f494f12ed44714244e0095a63ec5137930b88bf4c1b6e3b6475da78910301c302afd6f838a04a688bd13f26b72cb3ece1125ed088b4285fb89ef2ed526
+Description: Dancing Letters Generator (forum and HTML)
 
 Package: wifibox-dhcpcd
 Architecture: i386
@@ -2941,6 +3044,22 @@ SHA1: a726888df04de31ad5a3ef8d46a54c688db4f69f
 SHA256: 9560ce19e0c0420653cf64bcf9be232aa0e74e8e44ba3923849421b86f7762e3
 SHA512: 6fa176a0781b9cf3d6fec02d7f24e1f0d584f1ff616e1a6abeb6c8d68c6996230ae5e1597e0cfc8b16c7fe1682945bd54446806faf0339d83ec3777c94f3c805
 Description: Wireless Network manager
+
+Package: gifenc
+Architecture: i386
+Version: 1.0.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 43
+Depends: libc6, ffmpeg, yad
+Filename: ./Extra/gifenc_1.0.1_i386.deb
+Size: 15744
+MD5sum: fc9f023cf549e74031e0dc32333b1b50
+SHA1: 32ca30a527383a83f62b78e5ec4a8144ea8b55b3
+SHA256: cf807f8bc475dc3681ef6c102d43d5700976d70230c83543f306799a3ff32ea4
+SHA512: e1241b757cf98954c0abe1096aecd8fcf80a9194355916fcd292dbcac80a2ac7802404225b7db476c0ddbb0bf1262f602dff68224b6f5da1c5e5b61f09b94506
+Description: Convert video (or portion of video) to Animated GIF
 
 Package: flburn
 Architecture: i386
