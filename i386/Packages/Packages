@@ -719,19 +719,20 @@ Package: quick-remaster
 Architecture: all
 Version: 1.0.8
 Maintainer: fredx181 dog@root.nl
-Installed-Size: 49
-Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Installed-Size: 336
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isotools
 Filename: ./Included/quick-remaster_1.0.8_all.deb
-Size: 9374
-MD5sum: 6d3e48a417e2e1eabc979813d72c417f
-SHA1: 7a46c76d2e852cc1f10fcadbc4f398ee2ab54210
-SHA256: 6e12877ea98c1d9000dd5c7d6e54dfbbb9a2f77af6880cec7858bdedb3e6f7bb
-SHA512: f4f043308324447ce7e178934a15e260ea7e7a89b3dd6a0e23955f3737e5bba789b9d529b36b8a82691a05cedba0b943b55303b65302e3ecce15fb60f5dc2f3b
+Size: 160288
+MD5sum: dc3b4cc05aa827622b43b1d3e9cc8667
+SHA1: ace468d989cc482101edef0188320e560ed8c7fc
+SHA256: 79fcc1cd87d9784a948e732249df49b35bd5f099b8c61959802f403926a367fd
+SHA512: 39125c16606b8d67ab1f1639fc64d981fa44b5f8f1d64207bfc9497e261a31da1ffc639ed3ad636af42fcbe792bee22e8e49c07970a9f230b4900d0980396279
 Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
  Included GUI version using yad: quick-remastergui
  Bug fix: gz compression option not working in previous version 1.0.3
- Bug fix: set the correct permissions for /tmp
- Change: instead simple mount --bind / .. bind directories separate with exclusions
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7: added option to create ISO
 
 Package: desktop-editor
 Architecture: i386
